@@ -14,6 +14,7 @@ export function Fetch1() {
   const data = use(fetch1());
   return (
     <>
+      <h2>Static Data</h2>
       <b>current time from worldtimeapi.org: </b>
       <div>
         <code>{data}</code>

@@ -17,7 +17,8 @@ export function Fetch2() {
   const data = use(fetch2());
   return (
     <>
-      <b>current time from timeapi.io: </b>
+      <h2>Dynamic Data</h2>
+      <b>current time from timeapi.io</b>
       <div>
         <code>{data}</code>
       </div>
